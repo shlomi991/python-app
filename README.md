@@ -15,7 +15,7 @@ After you can open your Jenkins app in localhost port 8080 (http://localhost:808
 
 Now, you need to create credentials for docker authentication in the pipeline.
 
-go to:
+Go to:
 
 Manage Jenkins > Manage credentials > System > Global credentials > Add credentials
 
@@ -32,6 +32,8 @@ ID: dockerhubaccount
 
 
 #### Then create your pipeline:
+
+Go to:
 
 New Item > Pipeline
 
