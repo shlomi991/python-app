@@ -37,7 +37,7 @@ First, Choose GitHub project and enter the GitHub project URL
 
 Second, The build trigger that we will choose will be Poll SCM and we will schedule the scan prefer your needs.
 
-Third, Pipeline object. Choose "pipeline script from SCM"  enter the GitHub project URL, After enter from which branch take the jenkins file from. and put the Script Path: buildNdeploy.groovy
+Third, Pipeline object. Choose "pipeline script from SCM" enter the GitHub project URL, After enter from which branch take the jenkins file from, And put the Script Path: buildNdeploy.groovy
 
 
 
