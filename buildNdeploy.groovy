@@ -52,6 +52,7 @@ pipeline {
         {
             sh '''
                   docker run ${USER_DOCKER}/${RELEASE_NAME}:$IMAGE_TAG
+                  docker logout
                 '''
        }
      }
