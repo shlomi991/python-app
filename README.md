@@ -29,7 +29,9 @@ Password: $DOCKERHUB_PASSWORD
 
 ID: dockerhubaccount
 
-Then you can create your pipeline:
+
+
+#### Then create your pipeline:
 
 New Item > Pipeline
 
