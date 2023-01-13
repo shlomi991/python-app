@@ -7,11 +7,11 @@ Run the jenkins server:
 docker-compose -f jenkins/docker-compose.yml up -d
 ```
 ### Setup
-Get the password to Jenkins from container logs:
+Get Jenkins password by the container logs:
 ```
 docker logs jenkins
 ```
-After you can open your Jenkins app in localhost port 8080 (http://localhost:8080/) and put your password.
+After you can open your Jenkins app in localhost port 8080 (http://localhost:8080/) and enter the Jenkins password.
 
 Now, you need to create credentials for docker authentication in the pipeline.
 
